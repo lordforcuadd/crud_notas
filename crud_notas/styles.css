@@ -1,0 +1,135 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #5cb85c;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #4cae4c;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #5cb85c;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s;
+}
+
+form {
+    margin-top: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus, textarea:focus {
+    border-color: #5cb85c;
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    display: inline-flex;
+    align-items: center;
+}
+.b1 {
+    background-color: #cfb626;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.b2 {
+    background-color: #cf2626;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.b1:hover {
+    background-color: #cfc100;
+    transform: translateY(-2px);
+    color: #ddd;
+}
+.b2:hover {
+    background-color: #a00000;
+    transform: translateY(-2px);
+    color: #ddd;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+.text1{
+    margin-top: 20px;
+}
+
+i{
+    font-size: 15px;
+    
+}
+@media (max-width: 600px) {
+    table {
+        width: 100%;
+    }
+
+    form {
+        width: 95%;
+    }
+}
